@@ -19,7 +19,7 @@
   },
   "scripts": {
     "lint:fix": "eslint --fix --quiet --",
-    "lint": "eslint --",
+    "lint": "eslint .",
     "pre-commit": "lint-staged",
     "start": "node .",
     "test": "echo Write some tests!; exit 1"

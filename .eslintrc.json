@@ -1,13 +1,8 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "prettier"
-  ],
-  "plugins": [
-    "prettier"
-  ],
+  "extends": ["eslint:recommended", "prettier"],
+  "plugins": ["prettier"],
   "parserOptions": {
-    "ecmaVersion": 2016
+    "ecmaVersion": 2016,
     "sourceType": "module"
   },
   "env": {
@@ -16,7 +11,10 @@
     "mocha": true
   },
   "rules": {
-    "prettier/prettier": ["error", { "singleQuote": true, "printWidth": 100, "semi": false }],
+    "prettier/prettier": [
+      "error",
+      { "singleQuote": true, "printWidth": 100, "semi": false }
+    ],
     "arrow-body-style": ["error", "as-needed"],
     "arrow-parens": ["error", "as-needed"],
     "arrow-spacing": ["error"],
@@ -28,12 +26,15 @@
     "generator-star-spacing": ["error"],
     "handle-callback-err": [0],
     "indent": ["error", 2],
-    "lines-around-directive": ["error", { "before": "never", "after": "always" }],
+    "lines-around-directive": [
+      "error",
+      { "before": "never", "after": "always" }
+    ],
     "max-len": [1, { "code": 100, "ignoreUrls": true }],
     "new-cap": [0],
     "newline-after-var": ["error", "always"],
     "newline-before-return": ["error"],
-    "no-console": [1],
+    "no-console": [0],
     "no-else-return": ["error"],
     "no-extra-bind": ["error"],
     "no-extra-label": ["error"],
