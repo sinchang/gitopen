@@ -22,10 +22,8 @@ const defaultCommand = cli.command(
       const cmd = execSync(`git remote get-url ${flags.name || `origin`}`)
 
       opn(cmd.toString().trim())
-      process.exit()
     } catch (err) {
-      console.error(err.message)
-      process.exit(1)
+      throw error
     }
   }
 )
