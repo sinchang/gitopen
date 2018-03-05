@@ -22,7 +22,7 @@
     "lint": "eslint .",
     "pre-commit": "lint-staged",
     "start": "node .",
-    "test": "echo Write some tests!; exit 1"
+    "test": "echo Write some tests!"
   },
   "dependencies": {
     "cac": "^4.4.1",
