@@ -1,6 +1,6 @@
 {
   "name": "@sinchang/gitopen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Open git remote url from web browser",
   "author": "sinchang (https://github.com/sinchang)",
   "license": "MIT",
